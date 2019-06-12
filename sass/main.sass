@@ -1,0 +1,215 @@
+
+@import '../node_modules/normalize.scss/normalize'
+
+@import 'parts/var'
+@import 'parts/mixin'
+@import 'parts/default'
+@import 'parts/slider'
+
+
+.header 
+    position: relative
+    background: url(../img/header.png) no-repeat 
+    background-size: cover
+    min-height: 85vh    
+    
+.container
+    margin: 0 auto
+    max-width: 1160px
+    box-sizing: border-box
+.wrapper 
+    position: relative
+    overflow: hidden
+    min-height: 100%
+.header-info
+    display: flex
+    flex-direction: column
+    color: white
+    justify-content: center
+    align-items: left
+    padding-top: rem(40px)
+    position: relative
+    z-index: 4
+    margin: 30px
+    +laptop
+        margin: 0
+        padding-top: rem(100px)
+.header-title
+    font-size: rem(36px)
+    text-transform: uppercase
+    text-align: left
+    margin-bottom: 0
+    font-weight: 500
+
+.header-text
+    text-align: left
+    font-size: rem(16px)
+    margin: 30px 0
+    max-width: 600px
+    
+.header-list
+    background-color: #222629
+    margin: 0
+    padding: 0
+    height: 420px
+    width: 270px
+    position: absolute
+    display: flex
+    list-style-type: none
+    font-size: rem(22px)
+    color: white
+    flex-direction: column
+    justify-content: space-around
+    text-align: center
+    z-index: 6
+    transition: 0.5s
+.header-link
+    text-decoration: none
+    color: white
+.header-btns
+    margin-top: 20px
+.header-btn
+    text-decoration: none
+    color: white
+    border: 1px solid white
+    font-size: rem(13px)
+    padding: 10px
+    border-radius: 5px
+    margin: 25px
+    display: block
+    text-align: center
+    +tablet
+        margin: 10px
+        display: inline
+    &:hover
+        background: #00BAA0
+
+    
+
+.ham
+    margin: 40px
+    z-index: 4
+    position: relative
+    +laptop
+        display: none
+.active
+    margin-left: -600px
+    z-index: 5
+.header-icon
+    margin: 0 auto
+    display: block
+    margin-top: rem(50px)
+    +phone
+         margin-top: rem(100px)
+    +tablet
+        margin-top: rem(277px)
+    z-index: 4
+    position: relative
+.header-nav
+    margin: 0
+    padding: 0
+    background: #222629
+.nav-logo
+    color: white
+    margin: 0
+    padding: 35px
+    padding-left: 0
+    font-size: rem(30px)
+    margin-left: 30px
+    +desktop
+        margin-left: 0
+    
+.nav-o
+    text-decoration: underline
+    padding-bottom: 5px
+.nav-list
+    display: flex
+    color: #A1ABA4
+    list-style-type: none
+.nav-wrap
+    display: flex
+    justify-content: space-between
+    align-items: center
+    display: none
+    +laptop
+        display: flex
+.nav-link
+    text-decoration: none
+    color: #A1ABA4
+    padding: 10px
+    margin: 5px
+    &:hover
+        border: 1px solid #A1ABA4
+        border-radius: 5px
+.nav-active
+    color: #00BAA0
+    border: 1px solid #00BAA0
+    border-radius: 5px
+
+
+.title
+    margin-top: 80px
+    margin-bottom: 50px
+    padding-left: 15px
+    color: black
+    
+    font-size: 36px
+    font-weight: normal
+    margin-left: 50px
+    +desktop
+        border-left: 5px solid gray
+        margin-left: 0
+
+.intro-info
+    display: flex
+    align-items: flex-start
+    justify-content: center
+    flex-wrap: wrap
+    +desktop
+        justify-content: space-between
+.intro-img
+    display: block
+    height: 50px
+    margin-right: 15px
+.intro-par
+    max-width: 390px
+    margin: 0
+.intro-item
+    display: flex
+    align-items: flex-start
+    margin-bottom: 35px
+.intro-sub
+    margin-top: 0
+    font-size: 18px
+    font-weight: 500
+    margin-bottom: 15px
+.feat-text
+    max-width: 620px
+    font-size: 18px
+    &:first-child
+        margin-top: 0
+        margin-bottom: 50px
+.feat-title
+    font-size: rem(36px)
+.feat-imgs
+    margin-top: 70px
+.intro-about, .intro-feat
+    margin: 20px
+    +laptop
+        margin: 0
+
+
+
+
+
+ 
+    
+    
+
+
+
+
+  
+    
+
+

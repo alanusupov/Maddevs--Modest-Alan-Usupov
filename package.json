@@ -1,0 +1,17 @@
+{
+  "name": "lesson_27",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bourbon": "^5.1.0",
+    "jeet": "^7.2.0",
+    "normalize.scss": "^0.1.0"
+  }
+}
