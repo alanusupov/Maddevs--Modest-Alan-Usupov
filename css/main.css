@@ -964,6 +964,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   flex-wrap: wrap;
   margin: 50px 0;
+  list-style-type: none;
 }
 
 .skill-item {
@@ -982,6 +983,45 @@ h1, h2, h3, h4, h5, h6 {
 
 .skill-text {
   max-width: 260px;
+}
+
+.features {
+  background: #37464A;
+}
+
+.feature-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.feature-box {
+  max-width: 360px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-bottom: 0;
+  max-width: 360px;
+  margin: 10px;
+}
+
+.features-sub {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.feature-text {
+  max-width: 360px;
 }
 
 /*# sourceMappingURL=main.css.map */
