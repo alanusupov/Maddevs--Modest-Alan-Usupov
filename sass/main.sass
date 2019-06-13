@@ -197,7 +197,154 @@
     margin: 20px
     +laptop
         margin: 0
+.team-wrap
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+    margin-bottom: 100px
+.team-item
+    max-width: 263px
+    margin-bottom: 20px
+    position: relative
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0
+        opacity: 0
+        background: rgba(209, 209, 205, 0.6)
+        overflow: hidden
+        z-index: 1
+    &:hover
+        &:after
+            opacity: 1
+.team-soc
+    position: absolute
+    top: 113px
+    left: 52px
+    z-index: 3
+    opacity: 0
+    height: 300px
+    width: 300px
+    &:hover
+        opacity: 1
+       
+        
+.team-sub
+    margin-top: -5px
+    padding-top: 10px
+    font-size: rem(16px)
+    margin-left: 10px
+    color: rgb(78, 84, 86)
+    font-weight: normal
+    margin-bottom: 5px
+.team-desc
+    font-size: rem(14px)
+    margin-left: 10px
+    color: rgb(148, 147, 145)
+    padding-bottom: 10px
+.team-info
+    background: #E3E7E8
+.work
+    background: #37464A
+.work-title
+    color: white
+.work-space
+    padding-top: 30px
+.work-wrap
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: row
+    flex-wrap: wrap
 
+.work-item
+    position: relative
+    width: 360px
+    margin: 10px
+    padding: 0
+    &:after
+        content: ''
+        position: absolute
+        width: 100%
+        height: 91%
+        top: 10px
+        bottom: 0
+        left: 10px
+        right: 0
+        opacity: 0
+        background: rgba(81, 99, 94, 0.6)
+        overflow: hidden
+        z-index: 1
+    &:hover
+        &:after
+            opacity: 1
+
+    
+.work-img
+   margin: 10px
+   width: 100%
+   z-index: 2
+   
+.work-info
+    background: #2A3138
+    position: absolute
+    bottom: 15px
+    margin-left: 10px
+    left: 0
+    width: 100%
+    opacity: 0
+    z-index: 9
+    &:hover
+        opacity: 1
+.work-sub
+    font-weight: normal
+    color: white
+    margin-left: 20px
+.work-add
+    position: absolute
+    top: 44%
+    left: 51%
+    z-index: 5
+    opacity: 0
+    &:hover
+        opacity: 1
+.work-btn
+    text-align: center
+    text-decoration: none
+    border: 1px solid #ffffff
+    padding: 15px
+    color: white
+    margin: 0 auto
+    display: block
+    width: 150px
+    border-radius: 5px
+.link-wrap
+    padding-top: 30px
+    padding-bottom: 50px
+
+
+.skill-list
+    display: flex
+    justify-content: center
+    flex-wrap: wrap
+    margin: 50px 0
+.skill-item
+    display: flex
+    justify-content: center
+    flex-direction: column
+    margin: 10px
+    text-align: center
+.skill-sub
+    font-size: rem(17px)
+    font-weight: normal
+    color: black
+.skill-text
+    max-width: 260px
+
+    
 
 
 
