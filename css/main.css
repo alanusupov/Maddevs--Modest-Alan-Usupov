@@ -470,7 +470,13 @@ th {
 .dot-list {
   position: absolute;
   right: 200px;
-  top: 630px;
+  top: 600px;
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  .dot-list {
+    display: block;
+  }
 }
 
 .dot {
@@ -572,11 +578,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 4;
   margin: 30px;
+  padding-left: 20px;
 }
 @media screen and (min-width: 992px) {
   .header-info {
     margin: 0;
     padding-top: 6.25rem;
+    padding-left: 0;
   }
 }
 
