@@ -3,8 +3,9 @@
 
 @import 'parts/var'
 @import 'parts/mixin'
-@import 'parts/default'
 @import 'parts/slider'
+@import 'parts/default'
+
 
 
 .header 
@@ -12,6 +13,16 @@
     background: url(../img/header.png) no-repeat 
     background-size: cover
     min-height: 85vh    
+.header2
+    position: relative
+    background: url(../img/flo.jpg) no-repeat 
+    background-size: cover
+    min-height: 85vh  
+.header3
+    position: relative
+    background: url(../img/flo2.jpg) no-repeat 
+    background-size: cover
+    min-height: 85vh  
     
 .container
     margin: 0 auto
@@ -92,7 +103,7 @@
     position: relative
     +laptop
         display: none
-.active
+.hactive
     margin-left: -600px
     z-index: 5
 .header-icon
@@ -370,9 +381,99 @@
     font-weight: normal
     margin: 10px
     margin-left: 0
-
+.feature-img
+    width: 100%
 .feature-text
     max-width: 360px
+    padding: 5px
+.contact
+    position: relative
+.contact-form
+    max-width: 555px
+.contact-sub
+    font-size: 20px
+    font-weight: normal
+    color: black
+    padding-top: 30px
+.contact-text
+    max-width: 550px
+    margin-bottom: 20px
+    &:last-child
+        padding-bottom: 80px
+input
+    display: block
+    background: #EBEEEF
+    border: none
+    height: 40px
+    border-radius: 5px
+    width: 240px
+.contact-in
+    margin: 10px
+#mess
+    width: 220px
+    height: 160px
+    margin-left: 10px
+    margin: 0 auto
+    +phone
+        width: 320px
+    +laptop
+        width: 520px
+.mess
+    margin-left: 50px
+    +laptop
+        margin: 0
+.form-top
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    padding-top: 15px
+.contact-map
+    position: relative
+.contact-info
+    padding-left: 50px
+    +desktop
+        padding-left: 0
+
+iframe
+    display: none
+    +laptop
+        display: block
+.contact-form
+    padding-left: 50px
+    padding-right: 20px
+    background: #ffffff
+    margin: 0 auto
+    +desktop
+        position: absolute
+        right: 50px
+        bottom: 40px
+        
+.form-btn
+    background: #00BAA0
+    border: none
+    border-radius: 5px
+    width: 153px
+    padding: 10px
+    color: white
+    margin-left: 50px
+    margin-top: 30px    
+    text-align: center
+    +desktop
+        margin-left: 10px
+    
+
+.footer
+    background: #38464A
+.footer-wrap
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+.footer-info
+    padding: 20px 20px
+    color: white
+.footer-img
+    padding: 20px 
+    padding-left: 40px
 
 
 
