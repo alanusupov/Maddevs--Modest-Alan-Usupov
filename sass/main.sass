@@ -7,22 +7,40 @@
 @import 'parts/default'
 
 
-
+.hamburger
+    position: absolute
+    left: 0
+    top: 0
+    margin: 0
+    padding: 0
+    
 .header 
     position: relative
     background: url(../img/header.png) no-repeat 
     background-size: cover
     min-height: 85vh    
+    margin-top: -50px
+    +desktop
+        margin-top: 0
+
 .header2
     position: relative
     background: url(../img/flo.jpg) no-repeat 
     background-size: cover
-    min-height: 85vh  
+    min-height: 85vh 
+    margin-top: -50px 
+    +desktop
+        margin-top: 0
+
 .header3
     position: relative
     background: url(../img/flo2.jpg) no-repeat 
     background-size: cover
     min-height: 85vh  
+    margin-top: -50px
+    +desktop
+        margin-top: 0
+
     
 .container
     margin: 0 auto
@@ -43,7 +61,7 @@
     z-index: 4
     margin: 30px
     padding-left: 20px
-    +laptop
+    +desktop
         margin: 0
         padding-top: rem(100px)
         padding-left: 0
