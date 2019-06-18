@@ -663,6 +663,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header-btn {
   text-decoration: none;
+  text-transform: uppercase;
   color: white;
   border: 1px solid white;
   font-size: 0.8125rem;
@@ -764,6 +765,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #A1ABA4;
   padding: 10px;
   margin: 5px;
+  text-transform: uppercase;
 }
 .nav-link:hover {
   border: 1px solid #A1ABA4;
@@ -781,6 +783,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 50px;
   padding-left: 15px;
   color: black;
+  text-transform: uppercase;
   font-size: 36px;
   font-weight: normal;
   margin-left: 50px;
@@ -823,6 +826,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro-sub {
   margin-top: 0;
+  text-transform: uppercase;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 15px;
@@ -897,6 +901,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .team-sub {
   margin-top: -5px;
+  text-transform: uppercase;
   padding-top: 10px;
   font-size: 1rem;
   margin-left: 10px;
@@ -982,6 +987,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .work-sub {
   font-weight: normal;
+  text-transform: uppercase;
   color: white;
   margin-left: 20px;
 }
@@ -1033,6 +1039,7 @@ h1, h2, h3, h4, h5, h6 {
 .skill-sub {
   font-size: 1.0625rem;
   font-weight: normal;
+  text-transform: uppercase;
   color: black;
 }
 
@@ -1073,6 +1080,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   margin: 10px;
   margin-left: 0;
+  text-transform: uppercase;
 }
 
 .feature-img {
