@@ -223,6 +223,7 @@
 .feat-text
     max-width: 620px
     font-size: 18px
+    margin-left: 10px
     &:first-child
         margin-top: 0
         margin-bottom: 50px
@@ -302,7 +303,9 @@
     position: relative
     width: 360px
     margin: 10px
-    padding: 0
+    padding-right: 15px
+    +laptop
+        padding-right: 5px
     &:after
         content: ''
         position: absolute
@@ -376,7 +379,10 @@
     justify-content: center
     flex-direction: column
     margin: 10px
+    padding-right: 10px
     text-align: center
+    +laptop
+        padding-right: 0
 .skill-sub
     font-size: rem(17px)
     font-weight: normal
@@ -418,6 +424,8 @@
     padding: 5px
 .contact
     position: relative
+.contact-info
+    
 .contact-form
     max-width: 555px
 .contact-sub
@@ -436,16 +444,21 @@ input
     border: none
     height: 40px
     border-radius: 5px
-    width: 240px
+    width: 100%
+    +laptop
+        width: 245px
 .contact-in
     margin: 10px
+    width: 100%
+    +laptop
+        width: 200px
 #mess
-    width: 220px
+    width: 100%
     height: 160px
     margin-left: 10px
+    margin-right: 10px
     margin: 0 auto
-    +phone
-        width: 320px
+    
     +laptop
         width: 520px
 .mess
@@ -457,6 +470,11 @@ input
     flex-wrap: wrap
     justify-content: space-around
     padding-top: 15px
+    margin-right: 0
+    margin-left: 0
+    width: 100%
+    +laptop
+        margin-left: -28px
 .contact-map
     position: relative
 .contact-info
@@ -470,7 +488,7 @@ iframe
         display: block
 .contact-form
     padding-left: 50px
-    padding-right: 20px
+    padding-right: 50px
     background: #ffffff
     margin: 0 auto
     +desktop
@@ -482,14 +500,14 @@ iframe
     background: #00BAA0
     border: none
     border-radius: 5px
-    width: 153px
+    width: 100%
     padding: 10px
     color: white
-    margin-left: 50px
     margin-top: 30px    
     text-align: center
     +desktop
         margin-left: 10px
+        width: 153px
     
 
 .footer
