@@ -1122,6 +1122,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-text {
   max-width: 550px;
   margin-bottom: 20px;
+  padding-right: 10px;
 }
 .contact-text:last-child {
   padding-bottom: 80px;
